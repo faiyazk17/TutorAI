@@ -1,0 +1,1 @@
+export { default as Subscribe } from './sub-page/Subscribe';

@@ -1,0 +1,250 @@
+.registration2T{
+    background: #FCF8EF;
+    min-height: 100vh;
+    height: 1800px;
+}
+
+.reg2-logo{
+    position: relative;
+    margin-right: 1.5rem;
+}
+
+.reg2-logo img{    
+    position: relative;
+    margin-left: -200px;
+}
+
+.reg2-t-logoT{
+    width: 130px;
+    height: 130px;
+}
+
+.form-container2T{
+    left: 50%;
+    margin-left: 516px;;
+}
+
+.registration-form2T{
+    width: 850px;
+    height: 1550px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    margin-top: 150px;
+    margin-left: -195px;
+}
+
+.registration-form2T p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 30px;
+
+    color: #97B6DD;
+    font-family:var(--font-other);
+}
+
+.reg2-page-titleT{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+    color: #5F8BD0;
+
+    font-family: var(--font-other);
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#reg2-submit-page-buttonT{
+    font-family: var(--font-other);
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 20px;
+    background-color: #5F8BD0;
+    color: white;
+    margin: 1rem;
+    width: 235px;
+    cursor: pointer;
+
+}
+
+#reg2-link-buttonT{
+    background: none;
+    color: white;
+    text-decoration: underline;
+    color: #0000EE;
+    cursor: pointer;
+
+}
+
+.optionsT {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5;
+}
+
+label {
+    display: flex;
+    align-items:center;
+    margin: 5px 0;
+
+    color:#5F8BD0;
+    font-size: 16px;
+    font-family: var(--font-other);
+}
+
+.formStyleS2T {
+    display: "flex";
+    flex-direction: "column";
+    align-items: "center";
+    position: "absolute";
+    font-family: var(--font-other);
+
+    margin: 9px -25px;
+
+    color:#5F8BD0;
+    padding-left: 50px
+};
+
+#submit-page-buttonT:hover{
+    transform: scale(1.02) perspective(1px);
+}
+
+.pick-titleT {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 30px;
+
+    color: #5F8BD0;
+    font-family:var(--font-other);
+}
+
+
+.student-type-selectT {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 12px;
+    padding-left: 30px;
+
+    color: #000000;
+    font-family:var(--font-other);
+}
+
+
+input[type=radio] {
+    height: 25px;
+    width: 25px;
+}
+
+.stu-elementary-selectT input{
+    margin: 0px;
+}
+
+.stu-elementary-selectT p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.stu-secondary-selectT input{
+    margin: 0px;
+}
+
+.stu-secondary-selectT p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.stu-post-selectT input{
+    margin: 0px;
+}
+
+.stu-post-selectT p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.reg2-title-logoT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.reg2-subtitleT {
+    padding-left: 30px;
+}
+
+.stu-elementary-selectT, .stu-secondary-selectT, .stu-post-selectT {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 80px;
+    padding-bottom: 15px;
+
+}
+
+.button-accountT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: end;
+}
+
+.account-linkT {
+    margin-right: 30px;
+}
+
+.selector-titleT {
+    color: black;
+}
+
+
+.terms-agreeT {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.check-boxT {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    margin-left: 30px;
+    background-color: #000000;
+}
+
+.termsT {
+    color: #000000;
+}
+
+.submit-buttonT {
+    margin: 0px;
+}
+
+.logo {
+    position: relative;
+}

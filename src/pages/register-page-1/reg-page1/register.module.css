@@ -1,0 +1,238 @@
+.registration{
+    display: flex;
+    background: #FCF8EF;
+    min-height: 100vh;
+    position: relative;
+}
+
+ html, body {
+    overflow: auto;
+}
+
+.regLogo{
+    margin-right: 1.5rem;
+}
+
+.regLogo img{    
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 2rem;
+}
+
+.reg1tLogo{
+    width: 130px;
+    height: 130px;
+}
+
+.formContainer{
+    left: 50%;
+    margin-left: 516px;
+}
+
+.registrationForm{
+    width: 850px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    margin-bottom: 100px;
+
+    margin-top: 150px;
+    margin-left: -195px;
+}
+
+.reg1PageTitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+
+    color: #5F8BD0;
+    
+    position: relative;
+    font-family: var(--font-other);
+}
+
+
+button{
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.forgotPasswordButton{
+    background: none;
+    color: white;
+    text-decoration: underline;
+    color: #0000EE;
+    cursor: pointer;
+    left: 830px;
+    top: 585px;
+}
+
+
+.genderSelect{
+    margin: 1rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #5F8BD0;
+    width: 750px;
+    height: 45px;
+}
+
+.genderDefaultValue{
+    color: grey;
+}
+
+.roleSelect {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 12px;
+    justify-content: start;
+    padding-left: 30px;
+
+    color: #000000;
+    font-family:var(--font-other);
+}
+
+input[type=radio] {
+    height: 25px;
+    width: 25px;
+}
+
+.studentSelect{
+    display: flex;
+    flex-direction: row;
+    padding-right: 250px;
+    
+
+}
+
+.studentSelctor {
+    margin: 0px;
+}
+
+.studentTitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    color: #000000;
+    font-family:var(--font-other);
+    margin: 0px;
+    padding-left: 10px;
+
+}
+
+.tutorSelect{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tutorSelctor {
+    margin: 0px;
+}
+
+.tutorTitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    color: #000000;
+    font-family:var(--font-other);
+    margin: 0px;
+    padding-left: 10px;
+
+}
+
+
+
+.nextPageButton:hover{
+    transform: scale(1.02) perspective(1px);
+}
+
+.roleSelectTitle {
+    padding-left: 30px;
+    color: #000000;
+}
+
+.titleLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subtitle {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 5px;
+
+    color: #97B6DD;
+    font-family:var(--font-other);
+}
+
+.titleSubtitle {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.inputs {
+    width: 640px;
+}
+
+.fullName, .email, .password, .confirmpwd, .countrySelect {
+    width: 640px;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 16px;
+    border-color: #5F8BD0;
+    color: gray;
+    padding-right: 16px;
+}
+
+.nextHaveAccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.nextPageButton{
+    font-family: var(--font-other);
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 20px;
+    background-color: #5F8BD0;
+    color: white;
+    width: 235px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.reg1LinkButton{
+    background: none;
+    color: white;
+    text-decoration: underline;
+    color: #0000EE;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 0px;
+}

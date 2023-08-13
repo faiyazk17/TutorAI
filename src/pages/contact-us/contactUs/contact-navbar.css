@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+.contact-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3rem 7rem;
+        
+    gap: 2rem;
+    background-color: #FCF8EF;
+}
+
+.contact-navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.contact-navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.contact-navbar-links_logo{
+    margin-right: 4rem; 
+}
+
+.contact-navbar-links_logo img{
+    width: 510px;
+    height: 90px;
+}
+
+.contact-navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #97B6DD;
+    border-radius: 15px;
+}
+
+.contact-navbar-links_container p {
+    color: #fff;
+    font-family: var(--font-other);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 29px;
+
+    padding: 0.75rem 1rem;
+
+    cursor: pointer;
+
+    background: #97B6DD;    
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    
+    align-items: center;
+}
+
+.contact-navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.contact-navbar-menu svg{
+    cursor: pointer;
+}
+
+.contact-navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #5F8BD0;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rbga(0,0,0,0.2);
+}
+
+.contact-navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+.contact-nav-link{
+    color: white;
+}
+
+.contact-active {
+    color: #131b91;
+}
+
+@media screen and (max-width:1050px){
+    /* .navbar-links_container{
+        display: none;
+    }
+
+    .navbar-links_home{
+        display: none;
+    } */
+
+    .navbar-menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:700px){
+    .navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    .navbar{
+        padding: 2rem;
+    }
+
+    .navbar-menu_container{
+        top: 20px;
+    }
+}

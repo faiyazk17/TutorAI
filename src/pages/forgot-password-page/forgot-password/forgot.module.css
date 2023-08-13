@@ -1,0 +1,88 @@
+.forgotPassword {
+    display: flex;
+    background: #FCF8EF;
+    min-height: 100vh;
+}
+
+.logo{
+    margin-right: 1.5rem;
+}
+
+.logo img{    
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 2rem;
+}
+
+.forgotFormContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    
+}
+
+.forgotForm{
+    width: 700px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+.forgotForm input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+}
+
+.forgotForm img{
+    width: 90px;
+    height: 90px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.forgotForm h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+
+    color: #5F8BD0;
+    font-family: var(--font-other);
+
+    display: inline;
+}
+
+.forgotHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forgotSubmitButton{
+    font-family: var(--font-other);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 20px;
+    background-color: #5F8BD0;
+    color: white;
+    width: 560px;
+    cursor: pointer;
+    margin-top: 1rem;
+}

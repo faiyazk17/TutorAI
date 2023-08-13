@@ -1,0 +1,133 @@
+.reset{
+    display:flex;
+    background: #FCF8EF;
+    min-height: 100vh;
+}
+
+.reset-logo{
+    margin-right: 1.5rem;
+}
+
+.reset-logo img{    
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 3rem;
+}
+
+.reset-t-logo{
+    width: 110px;
+    height: 110px;
+
+    position: absolute;
+    left: 65%;
+    top: 200px;
+}
+
+.reset-form-container{
+    left: 50%;
+    margin-left: 570px;
+}
+
+.reset-form{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    left: 50%;
+    margin-bottom: 100px;
+
+    margin-top: 190px;
+    margin-left: -175px;
+}
+
+.reset-page-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+
+    color: #5F8BD0;
+    
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    margin-left: -335px;
+
+    padding: 2rem;
+    font-family: var(--font-other);
+}
+
+.reset-form p{
+    position: absolute;
+    left: 385px;
+    top: 255px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #97B6DD;
+    font-family:var(--font-other);
+}
+
+.reset-form input{
+    width: 500px;
+}
+
+.reset-submit-page-button{
+    font-family: var(--font-other);
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 20px;
+    background-color: #5F8BD0;
+    color: white;
+    margin: 1rem;
+    width: 450px;
+    cursor: pointer;
+    position: absolute;
+    top: 450px;
+    left: 660px;
+    margin-left:-118px;
+    margin-top: 4.5rem;
+}
+
+input{
+    margin: 0.75rem 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #5F8BD0;
+    width: 325px;
+    height: 45px;
+}
+
+.reset-submit{
+    font-family: var(--font-other);
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 20px;
+    background-color: #5F8BD0;
+    color: white;
+    margin: 1rem;
+    width: 235px;
+    cursor: pointer;
+    position: absolute;
+    top: 850px;
+    left: 380px;
+    margin-top: 3rem;
+}
+
+.reset-submit-page-button:hover{
+    transform: scale(1.02) perspective(1px);
+}

@@ -1,0 +1,274 @@
+.process{
+    display: flex;
+    background: #FCF8EF;
+}
+
+.process-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin: 10rem;
+
+    font-family: var(--font-other);
+}
+
+.process-content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+
+    color: #5F8BD0;
+
+    text-align: center;
+}
+
+.process-content h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+
+    color: #5F8BD0;
+}
+
+.process-content h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 61px;   
+    
+    color: #7BA0D6;
+    
+    text-align: center;    
+}
+
+.process-content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #97B6DD;
+}
+
+.questionnaires h2,
+.questionnaires p {    
+    text-align: center;
+    position: relative;
+    right: -50px; 
+}
+
+.questionnaires-logo{
+    margin-left: 1.5rem;
+    float:left;
+    position: relative;
+    left: 180px; 
+    top: -50px;
+}
+
+.questionnaires-logo img{
+    width: 325px;
+    height: 325px;
+}
+
+.personality-logo {
+    width: 250px;
+    height: 250px;
+    margin-left: 1.5rem;
+    float:left;
+    position: relative;
+    left: 200px; 
+}
+
+.matching-logo {
+    width: 250px;
+    height: 250px;
+    margin-left: 1.5rem;
+    float:right;
+    position: relative;
+    right: 300px;
+}
+
+.insights h2,
+.insights p {
+    text-align: center;
+    position: relative;
+    left: -50px;
+}
+
+.insights-logo{
+    margin-left: 1.5rem;
+    float:right;
+    position: relative;
+    right: 200px;   
+    top: -65px; 
+}
+
+.insights-logo img{
+    width: 350px;
+    height: 350px;
+}
+
+.personality h2,
+.personality p {
+    text-align: center;
+    position: relative;
+    left: 350px; 
+}
+
+.personality-logo{
+    margin-left: 1.5rem;
+    float: right;
+    position: relative;
+    left: -755px; 
+    top: -75px;
+}
+
+.personality-logo img{
+    width: 325px;
+    height: 325px;
+}
+
+.matching h2,
+.matching p {
+    text-align: center;
+    position: relative;
+    left: -95px;
+}
+
+.matching-logo{
+    margin-left: 1.5rem;
+    float: right;
+    position: relative;
+    left: -300px; 
+    top: -95px;
+}
+
+.matching-logo img{
+    width: 350px;
+    height: 350px;
+}
+
+/* Testimonial Section */
+.testimonials {
+    display: flex;
+    background: #B3CCE4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-other);
+}
+
+.testimonials-ttl {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 81px;
+    margin-bottom: 0px;
+
+    color: #5F8BD0;
+}
+
+.testimonials-p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 61px;
+    margin-top: 0px;
+
+    color: #7BA0D6;
+}
+
+.testimonial-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.test-img {
+    width: 150px;
+}
+
+.testimonial-texts {
+    display: flex;
+    justify-content: center;
+}
+
+.test-txt {
+    margin: 60px;
+}
+
+/* Getting Started */
+
+.getting-started {
+    display: flex;
+    flex-direction: row;
+    background: #FCF8EF;
+    justify-content: space-around;
+    font-family: var(--font-other);
+}
+
+.get-started-1 {
+    margin: 50px;
+}
+
+.get-started-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.getting-started button:hover{
+    transform: scale(1.02) perspective(1px);
+}
+
+.subscribes {
+    width: 200px;
+    height: 50px;
+    background-color: #5F8BD0;
+    color: white;
+    font-size: large;
+}
+
+.get-started-txt1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #5F8BD0;
+
+}
+
+.get-started-txt2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #5F8BD0;
+
+}
+
+/* Footer */
+.footer {
+    font-family: var(--font-other);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo-2 {
+    width: 200px;
+}
+
+.copyright {
+    color: gray;
+}
+
+.privacy {
+    margin: 10px
+}

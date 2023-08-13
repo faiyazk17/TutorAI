@@ -1,0 +1,133 @@
+.subscribe{
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-title {
+    position: fixed;
+    top: 200px;
+    left: 450px;
+
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    
+    color: #FFFFFF;
+}
+
+.pricing-plan{
+    background-color: #B3CCE4;
+    box-sizing: border-box;
+    font-family: var(--font-other);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+#card1_service1:before, #card1_service2:before, #card2_service1:before{
+    content: '✗';
+    color: red;
+}
+
+.pricing-plan li:before{
+    content: '✓';
+    color: green;
+}
+
+.cards li{
+    color: black;
+}
+
+.card button{
+    color: white;
+    background-color: #5F8BD0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 250px;
+    margin: 0.75rem;    
+}
+
+.card:hover, .card button:hover{
+    transform: scale(1.02) perspective(1px);
+}
+
+.card button:hover{
+    transform: scale(1.1) perspective(1px);
+}
+
+.cards h1, .cards h2, .card p{
+    color: #5F8BD0;
+}
+
+.cards h1, .cards h2, .card p{
+    color: #5F8BD0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    height: 100%;   
+}
+
+.card {
+    height: 600px;
+    width: 32%;
+    background: #FCF8EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.card-price {
+    font-size: 75px;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.card-title {
+    font-size: 40px;
+    padding: 1.75rem;
+    margin: -2rem -2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.175);
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 650;
+    font-size: 50px;
+}
+
+.cost-rate {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+.num-sessions {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 1rem; 
+    font-weight: 1000; 
+}
+
+.cards li {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 0.5rem; 
+    padding: 0.5rem;
+    font-weight: 500; 
+}
